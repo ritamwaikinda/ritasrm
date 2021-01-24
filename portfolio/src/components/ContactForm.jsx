@@ -1,13 +1,14 @@
 import React, { useState } from "react";
+import axios from "axios";
 import "./styles.css";
 
 function ContactForm() {
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
 	const [message, setMessage] = useState("");
-	
+
 		return (
-			<form>
+			<form onSubmit={handleOnSubmit}>
 				<input
 					value={name}
 					onChange={e => setName(e.target.value)}
@@ -29,7 +30,12 @@ function ContactForm() {
 					type="message"
 					name="message"
 					required />
-				<button type="submit">Submit</button>
+				<button type="submit" disabled={serverState.submitting}>Submit</button>
+				{serverState.status && (
+                <p className={!serverState.status.ok ? "errorMsg" : ""}>
+                {serverState.status.msg}
+                </p>
+				 )}
 			</form>
 	  );
 	}

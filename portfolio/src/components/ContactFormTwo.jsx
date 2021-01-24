@@ -17,24 +17,29 @@ const ContactFormTwo = ({ formData, setFormData }) => {
 					id="name"
 					type="text"
 					placeholder="* Your Name"
-					onChange={handleChange}
-				/>
+					onChange={handleChange} />
 				<input
 					name="email"
 					id="email"
 					type="email"
 					placeholder="* Your Email"
-					onChange={handleChange}
-				/>
+					onChange={handleChange} />
 				<textarea
 					name="message"
 					id="name"
 					type="text"
 					placeholder="* Your Message"
-					onChange={handleChange}
-				/>
+					onChange={handleChange}  
+                    />
 			</form>
 		</div>
+
+
+              n)}
+            </form>
+            </div>
+
+
 	);
 };
 
