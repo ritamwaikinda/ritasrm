@@ -4,10 +4,9 @@ import React /*, { Component }*/ from "react";
 // import Main from "./components/Main";
 // import Projects from "./components/Projects";
 // import Resume from "./components/Resume";
-import ContactForm from "./components/Contact";
+import Contact from "./pages/Contact";
 // import SocialLinks from "./components/SocialLinks";
 // import Footer from "./components/Footer";
-
 import "./App.css";
 
 function App() {
@@ -21,8 +20,7 @@ function App() {
 			<Contact />
 			<SocialLinks />
 			<Footer /> */}
-			<h1>Hello World </h1>
-			<ContactForm />
+			<Contact />
 		</div>
 	);
 }
