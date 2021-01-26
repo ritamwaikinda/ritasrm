@@ -35,31 +35,37 @@ function ContactForm() {
 
 	return (
 		<div>
-			<h1>Contact Me.</h1>
 			<form className="contactme" onSubmit={handleSubmit}>
 				<input
-					placeholder="* Your Name"
-					id="name"
+					placeholder=" * Your Name"
+					className="fields"
+					id="nameinput"
 					type="text"
-					name="name"
+					name="nameinput"
 					required
 				/>
 				<input
-					placeholder="* Your Email"
-					id="email"
+					placeholder=" * Your Email"
+					className="fields"
+					id="emailinput"
 					type="email"
-					name="email"
+					name="emailinput"
 					required
 				/>
 				<textarea
-					placeholder="* Your Message"
-					id="message"
+					placeholder=" * Your Message"
+					className="fields"
+					id="messageinput"
 					type="message"
-					name="message"
+					name="messageinput"
 					required
 				/>
-				<button type="submit" disabled={serverState.submitting}>
-					Submit
+				<button
+					className="fields"
+					id="submit"
+					type="submit"
+					disabled={serverState.submitting}>
+					Send Mail
 				</button>
 				{serverState.status && (
 					<p className={!serverState.status.ok ? "errorMsg" : ""}>
