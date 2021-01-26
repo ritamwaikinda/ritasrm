@@ -6,19 +6,18 @@ form {
 .fields {
 	margin: 20px;
 	margin-bottom: 3.4vh;
-	width: 40rem;
+	width: 38.4rem;
 	border: solid 1px black;
+	background-color: #111111;
+	color: #ffffff;
+	font-size: 1.2rem;
+	padding-left: 3.2em;
 	border-radius: 34px;
 	font-family: inherit;
+	outline: none;
 }
 .fields::placeholder {
-	font-size: 1.2rem;
 	color: #ffffff;
-	/* padding-top: 0.5rem; */
-	padding-left: 1.6em;
-}
-.fields:placeholder-shown {
-	background-color: #111111;
 }
 
 #nameinput {
@@ -41,4 +40,25 @@ form {
 	width: 15rem;
 	font-family: inherit;
 	font-size: 1.5rem;
+	padding-left: 0px;
+	transition: background-color 0.5s;
+}
+
+#submit:hover {
+	/* background-color: white;
+	opacity: 0.5; */
+	/* color: #ff7a59;
+	border: #ff7a59 solid 1px;
+	background: #ff7a5980; */
+	/* color: #fff;
+	border: #fff solid 1px;
+	background: #ff7a59; */
+	/* color: #22a2ea;
+	border: #22a2ea solid 1px;
+	background: #22a2ea44; */
+	color: #fff;
+	border: #fff solid 1px;
+	background: #22a2ea;
+	transform: scale(1.1);
+	transition: ease 0.5s;
 }

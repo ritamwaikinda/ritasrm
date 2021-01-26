@@ -1,11 +1,33 @@
 ul {
 	font-size: 30px;
 	list-style-type: none;
+	line-height: 3rem;
 }
 h1 {
 	padding-left: 1em;
 	font-size: 50px;
 }
+a,
+a:link,
+a:visited,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
 .margin {
 	margin: 5px;
+}
+#linkedin:hover {
+	transform: scale(1.04);
+	transition: 0.4s ease;
+}
+#linkedin:hover .linkedinlogo {
+	color: #22a2ea;
+}
+#github:hover {
+	transform: scale(1.05);
+	transition: 0.4s ease;
+}
+#github:hover .githublogo {
+	color: #22a2ea;
 }

@@ -21,14 +21,18 @@ function Contact() {
 					srmwaikinda@gmail.com
 				</li>
 				<li class="contact" id="linkedin">
-					<FaLinkedin />
-					<span className="margin"></span>
-					http://www.linkedin.com/in/ritamwaikinda
+					<a href="https://www.linkedin.com/in/ritamwaikinda" target="_blank">
+						<FaLinkedin className="linkedinlogo" />
+						<span className="margin"></span>
+						http://www.linkedin.com/in/ritamwaikinda
+					</a>
 				</li>
 				<li class="contact" id="github">
-					<FaGithub />
-					<span className="margin"></span>
-					http://github.com/ritamwaikinda
+					<a href="https://github.com/ritamwaikinda" target="_blank">
+						<FaGithub className="githublogo" />
+						<span className="margin"></span>
+						http://github.com/ritamwaikinda
+					</a>
 				</li>
 			</ul>
 			<br></br>
