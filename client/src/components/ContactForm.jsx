@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import swal from "sweetalert";
 import "./ContactForm.css";
 
 function ContactForm() {
@@ -13,7 +14,10 @@ function ContactForm() {
 			status: { ok, msg },
 		});
 		if (ok) {
-			form.reset();
+			swal("Thank you! We'll be reaching you very soon.");
+			setTimeout(function () {
+				form.reset();
+			}, 2000);
 		}
 	};
 	const handleSubmit = (e) => {
@@ -22,7 +26,7 @@ function ContactForm() {
 		setServerState({ submitting: true });
 		axios({
 			method: "post",
-			url: "https://formspree.io/YOUR_FORM_ID",
+			url: "https://formspree.io/f/mvovlywo",
 			data: new FormData(form),
 		})
 			.then((r) => {
