@@ -1,6 +1,6 @@
 import React /*, { Component }*/ from "react";
 // import Navbar from "./components/Navbar";
-// import Home from "./components/Home";
+import Home from "./pages/Home";
 // import Main from "./components/Main";
 // import Projects from "./components/Projects";
 // import Resume from "./components/Resume";
@@ -12,6 +12,7 @@ import "./App.css";
 function App() {
 	return (
 		<div>
+			<Home />
 			{/* <Navbar />
 			<Home />
 			<Main />
