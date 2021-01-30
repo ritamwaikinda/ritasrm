@@ -1,0 +1,40 @@
+.services {
+	margin-top: 12rem;
+	margin-bottom: 12rem;
+}
+.title {
+	/* border: solid black 1px; */
+	/* width: 40rem; */
+}
+.summary {
+	/* border: solid black 1px; */
+	margin-left: 4rem;
+	width: 34rem;
+	/* height: 20rem; */
+	padding-top: 1rem;
+	padding-bottom: 1.5rem;
+	font-size: 30px;
+	/* margin-right: 8rem; */
+}
+.skillsButton {
+	margin-left: 8rem;
+	border: solid 1px black;
+	background-color: #111111 !important;
+	color: #ffffff;
+	font-size: 1.8rem;
+	border-radius: 100px;
+	font-family: inherit;
+	line-height: 2.6em;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	padding: 0 2.2em;
+	padding-left: 5.1rem;
+}
+.skillsButton:hover {
+	color: #fff;
+	border: #fff solid 1px;
+	background: #22a2ea !important;
+	transform: scale(1.1);
+	transition: ease 0.5s;
+}

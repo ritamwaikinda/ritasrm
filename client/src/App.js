@@ -1,6 +1,8 @@
 import React /*, { Component }*/ from "react";
 // import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
+import Services from "./pages/Services";
+import Skills from "./pages/Skills";
 // import Main from "./components/Main";
 // import Projects from "./components/Projects";
 // import Resume from "./components/Resume";
@@ -13,6 +15,8 @@ function App() {
 	return (
 		<div>
 			<Home />
+			<Services />
+			<Skills />
 			{/* <Navbar />
 			<Home />
 			<Main />

@@ -4,6 +4,14 @@
 
 body {
 	font-family: "Arapey", serif;
+	margin-left: 5rem;
+	margin-right: 4rem;
+	width: 50rem;
+	/* font-weight: 300;
+	font-style: normal;
+	color: #000;
+	background: #fff;
+	-webkit-font-smoothing: antialiased; */
 }
 
 .App-logo {

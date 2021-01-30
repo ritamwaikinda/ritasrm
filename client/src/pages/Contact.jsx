@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Contact.css";
 import ContactForm from "../components/ContactForm";
 import { FaPhoneAlt, FaLinkedin, FaGithub } from "react-icons/fa";
@@ -11,7 +11,7 @@ function Contact() {
 			<br></br>
 			<ul id="form">
 				<li class="contact" id="phone">
-					<FaPhoneAlt />
+					<FaPhoneAlt viewBox="0 0 512 512" />
 					<span className="margin"></span>
 					(305) 934-2054
 				</li>
@@ -21,14 +21,20 @@ function Contact() {
 					srmwaikinda@gmail.com
 				</li>
 				<li class="contact" id="linkedin">
-					<a href="https://www.linkedin.com/in/ritamwaikinda" target="_blank">
+					<a
+						href="https://www.linkedin.com/in/ritamwaikinda"
+						target="_blank"
+						rel="noreferrer">
 						<FaLinkedin className="linkedinlogo" />
 						<span className="margin"></span>
 						http://www.linkedin.com/in/ritamwaikinda
 					</a>
 				</li>
 				<li class="contact" id="github">
-					<a href="https://github.com/ritamwaikinda" target="_blank">
+					<a
+						href="https://github.com/ritamwaikinda"
+						target="_blank"
+						rel="noreferrer">
 						<FaGithub className="githublogo" />
 						<span className="margin"></span>
 						http://github.com/ritamwaikinda

@@ -1,0 +1,81 @@
+.skills {
+	/* border: 1px solid red; */
+	margin-top: 12rem;
+	margin-bottom: 12rem;
+	display: flex;
+	flex-direction: column;
+	width: 57rem;
+}
+.qualifications {
+	/* border: 1px solid orange; */
+	height: 80%;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 3rem;
+}
+.title {
+	text-align: center;
+}
+.skillsList {
+	/* border: 1px solid yellow; */
+	display: flex;
+	flex-direction: column;
+	width: 32%;
+	padding-top: 15rem;
+	line-height: 2.6em;
+}
+.list {
+	padding-bottom: 1.5rem;
+	font-size: 30px;
+	padding-left: 3rem;
+	padding-right: 0px;
+	line-height: 4.8rem;
+}
+.resume {
+	width: 68%;
+	padding-top: 1rem;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.alert {
+	border: 1px solid #22a2ea;
+	background-color: #22a1ea1f;
+	font-size: 20px;
+	width: 7.5rem;
+	height: 2rem;
+	border-radius: 100px;
+	text-align: center;
+}
+.resumepdf {
+	/* border: 1px solid indigo; */
+	margin-top: 3rem;
+	padding-bottom: 1.5rem;
+	width: 38.76rem;
+	height: 54.65rem;
+}
+.projectsButton {
+	margin-left: 8rem;
+	border: solid 1px black;
+	background-color: #111111 !important;
+	color: #ffffff;
+	font-size: 1.8rem;
+	border-radius: 100px;
+	font-family: inherit;
+	/* outline: none; */
+	width: 10rem;
+	line-height: 2.6em;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	padding: 0 2.2em;
+	padding-left: 5.8rem;
+}
+.projectsButton:hover {
+	color: #fff;
+	border: #fff solid 1px;
+	background: #22a2ea !important;
+	transform: scale(1.1);
+	transition: ease 0.5s;
+}
