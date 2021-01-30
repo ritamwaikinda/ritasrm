@@ -7,6 +7,7 @@ import {
 	SiReact,
 	SiNodeDotJs,
 } from "react-icons/si";
+import expressjs from "../Images/expressjs.svg";
 import RitaMwaikindaWebDeveloper from "../Images/Docs/RitaMwaikindaWebDeveloper.pdf";
 import "./Skills.css";
 
@@ -19,20 +20,42 @@ function Skills() {
 						<h2 className="title">What I can do for you.</h2>
 						<ul className="list">
 							<li>
-								<SiHtml5 /> HTML
+								<span className="skillIcon">
+									<SiHtml5 />
+								</span>{" "}
+								HTML
 							</li>
 							<li>
-								<SiCsswizardry /> CSS
+								<span className="skillIcon">
+									<SiCsswizardry />
+								</span>{" "}
+								CSS
 							</li>
 							<li>
-								<SiJavascript /> JAVASCRIPT
+								<span className="skillIcon">
+									<SiJavascript />
+								</span>{" "}
+								JAVASCRIPT
 							</li>
 							<li>
-								<SiReact /> REACT
+								<span className="skillIcon">
+									<SiReact />
+								</span>{" "}
+								REACT
 							</li>
-							<li>EXPRESS</li>
 							<li>
-								<SiNodeDotJs /> NODE.JS
+								<img
+									src={expressjs}
+									alt="express logo"
+									className="expressLogo"
+								/>{" "}
+								EXPRESS
+							</li>
+							<li>
+								<span className="skillIcon">
+									<SiNodeDotJs />
+								</span>{" "}
+								NODE.JS
 							</li>
 						</ul>
 					</div>
@@ -43,7 +66,8 @@ function Skills() {
 						<embed
 							src={RitaMwaikindaWebDeveloper}
 							alt="pdf of resume"
-							className="resumepdf"></embed>
+							className="resumepdf"
+						></embed>
 					</div>
 				</div>
 				<div className="projectsButton">

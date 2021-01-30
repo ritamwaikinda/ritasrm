@@ -31,6 +31,15 @@
 	padding-right: 0px;
 	line-height: 4.8rem;
 }
+.expressLogo {
+	height: 30px;
+	width: 30px;
+}
+.skillIcon {
+	position: relative;
+	top: 5px;
+	bottom: 5px;
+}
 .resume {
 	width: 68%;
 	padding-top: 1rem;
