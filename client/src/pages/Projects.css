@@ -1,3 +1,13 @@
-.title {
+/* .title {
 	size: 200%;
+} */
+.projectList {
+	display: flex;
+	flex-direction: column;
+}
+.websitepreview {
+	border: 1px solid black;
+	height: 6rem;
+	width: 12rem;
+	border-radius: 25%;
 }

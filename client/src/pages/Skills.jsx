@@ -7,7 +7,6 @@ import {
 	SiReact,
 	SiNodeDotJs,
 } from "react-icons/si";
-import ExpressIcon from "../Images/ExpressIcon.jsx";
 import RitaMwaikindaWebDeveloper from "../Images/Docs/RitaMwaikindaWebDeveloper.pdf";
 import "./Skills.css";
 
@@ -31,9 +30,7 @@ function Skills() {
 							<li>
 								<SiReact /> REACT
 							</li>
-							<li>
-								<ExpressIcon /> EXPRESS
-							</li>
+							<li>EXPRESS</li>
 							<li>
 								<SiNodeDotJs /> NODE.JS
 							</li>
