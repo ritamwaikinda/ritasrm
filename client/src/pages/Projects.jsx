@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import AstroDate from "../Images/AstroDate.png";
 
 function Projects() {
 	return (
@@ -12,7 +13,7 @@ function Projects() {
 					className="websitepreview"
 				/>
 				<img
-					src="astrodate.jpg"
+					src={AstroDate}
 					alt="snapshot of the astrodate compatibility based dating application"
 					className="websitepreview"
 				/>

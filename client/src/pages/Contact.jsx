@@ -10,31 +10,33 @@ function Contact() {
 			<h1>Contact Me.</h1>
 			<br></br>
 			<ul id="form">
-				<li class="contact" id="phone">
+				<li className="contact" id="phone">
 					<FaPhoneAlt viewBox="0 0 512 512" />
 					<span className="margin"></span>
 					(305) 934-2054
 				</li>
-				<li class="contact" id="email">
+				<li className="contact" id="email">
 					<MdEmail />
 					<span className="margin"></span>
 					srmwaikinda@gmail.com
 				</li>
-				<li class="contact" id="linkedin">
+				<li className="contact" id="linkedin">
 					<a
 						href="https://www.linkedin.com/in/ritamwaikinda"
 						target="_blank"
-						rel="noreferrer">
+						rel="noreferrer"
+					>
 						<FaLinkedin className="linkedinlogo" />
 						<span className="margin"></span>
 						http://www.linkedin.com/in/ritamwaikinda
 					</a>
 				</li>
-				<li class="contact" id="github">
+				<li className="contact" id="github">
 					<a
 						href="https://github.com/ritamwaikinda"
 						target="_blank"
-						rel="noreferrer">
+						rel="noreferrer"
+					>
 						<FaGithub className="githublogo" />
 						<span className="margin"></span>
 						http://github.com/ritamwaikinda

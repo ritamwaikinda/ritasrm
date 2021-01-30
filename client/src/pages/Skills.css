@@ -13,7 +13,7 @@
 	flex-direction: row;
 	margin-bottom: 3rem;
 }
-.title {
+.skillsTitle {
 	text-align: center;
 }
 .skillsList {
@@ -22,6 +22,7 @@
 	flex-direction: column;
 	width: 32%;
 	padding-top: 15rem;
+	margin-right: 2rem;
 	line-height: 2.6em;
 }
 .list {

@@ -7,7 +7,7 @@ import {
 	SiReact,
 	SiNodeDotJs,
 } from "react-icons/si";
-import expressjs from "../Images/expressjs.svg";
+import ExpressJs from "../Images/ExpressJs.svg";
 import RitaMwaikindaWebDeveloper from "../Images/Docs/RitaMwaikindaWebDeveloper.pdf";
 import "./Skills.css";
 
@@ -17,7 +17,7 @@ function Skills() {
 			<div className="skills">
 				<div className="qualifications">
 					<div className="skillsList">
-						<h2 className="title">What I can do for you.</h2>
+						<h2 className="skillsTitle">What I can do for you.</h2>
 						<ul className="list">
 							<li>
 								<span className="skillIcon">
@@ -45,7 +45,7 @@ function Skills() {
 							</li>
 							<li>
 								<img
-									src={expressjs}
+									src={ExpressJs}
 									alt="express logo"
 									className="expressLogo"
 								/>{" "}
