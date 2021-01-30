@@ -1,14 +1,16 @@
 import React from "react";
 import "./Projects.css";
 import AstroDate from "../Images/AstroDate.png";
+import BreakingBad from "../Images/BreakingBad.png";
+import TriviaQuiz from "../Images/TriviaQuiz.png";
 
 function Projects() {
 	return (
 		<div className="projectPage">
-			<h1 className="title"> My Latest Work</h1>
+			<h1 className="projectsTitle"> My Latest Work.</h1>
 			<div className="projectList">
 				<img
-					src="breakingbad.jpg"
+					src={BreakingBad}
 					alt="snapshot of the breaking bad fan site and trivia game website"
 					className="websitepreview"
 				/>
@@ -18,7 +20,7 @@ function Projects() {
 					className="websitepreview"
 				/>
 				<img
-					src="bankingsite.jpg"
+					src={TriviaQuiz}
 					alt="snapshot of the online banking website"
 					className="websitepreview"
 				/>
