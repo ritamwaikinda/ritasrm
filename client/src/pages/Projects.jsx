@@ -23,13 +23,14 @@ function Projects() {
 				/>
 
 				<div className="projectDescription">
-					Dating Application with Inbox & Algorithmic Compatibility Matching
+					Dating App & Algorithmic Compatibility Matching
 					<span className="projectDate">December, 2020</span>
 				</div>
 				<img
 					src={AstroDate}
 					alt="snapshot of the astrodate compatibility based dating application"
 					className="websitepreview"
+					id="astro"
 				/>
 
 				<div className="projectDescription">
@@ -40,6 +41,7 @@ function Projects() {
 					src={TriviaQuiz}
 					alt="snapshot of the online banking website"
 					className="websitepreview"
+					id="quiz"
 				/>
 
 				<div className="projectDescription">
@@ -52,8 +54,7 @@ function Projects() {
 				/>
 
 				<div className="projectDescription">
-					MEDIUM style Mutli-Author & Multi-User Blog-Site for Web Developers
-					(with user accounts)
+					Multi-Author & User Blog-Site for Web Developers
 					<span className="projectDate">February, 2020</span>
 				</div>
 				<img
