@@ -12,8 +12,9 @@ function Projects() {
 		<div className="projectPage">
 			<h1 className="projectsTitle"> My Latest Work.</h1>
 			<div className="projectList">
-				<div>
-					Fansite with Interactive Trivia Game<span>November, 2020</span>
+				<div className="projectDescription">
+					Fansite with Interactive Trivia Game
+					<span className="projectDate">November, 2020</span>
 				</div>
 				<img
 					src={BreakingBad}
@@ -21,9 +22,9 @@ function Projects() {
 					className="websitepreview"
 				/>
 
-				<div>
+				<div className="projectDescription">
 					Dating Application with Inbox & Algorithmic Compatibility Matching
-					<span>December, 2020</span>
+					<span className="projectDate">December, 2020</span>
 				</div>
 				<img
 					src={AstroDate}
@@ -31,8 +32,9 @@ function Projects() {
 					className="websitepreview"
 				/>
 
-				<div>
-					API based Trivia Matching Game<span>November, 2020</span>
+				<div className="projectDescription">
+					API based Trivia Matching Game
+					<span className="projectDate">November, 2020</span>
 				</div>
 				<img
 					src={TriviaQuiz}
@@ -40,8 +42,8 @@ function Projects() {
 					className="websitepreview"
 				/>
 
-				<div>
-					Forum Application<span>January, 2021</span>
+				<div className="projectDescription">
+					Forum Application<span className="projectDate">January, 2021</span>
 				</div>
 				<img
 					src={Coming}
@@ -49,9 +51,10 @@ function Projects() {
 					className="websitepreview"
 				/>
 
-				<div>
+				<div className="projectDescription">
 					MEDIUM style Mutli-Author & Multi-User Blog-Site for Web Developers
-					(with user accounts)<span>February, 2020</span>
+					(with user accounts)
+					<span className="projectDate">February, 2020</span>
 				</div>
 				<img
 					src={Soon}
@@ -59,8 +62,9 @@ function Projects() {
 					className="websitepreview"
 				/>
 
-				<div>
-					Online Banking Application <span>February, 2020</span>
+				<div className="projectDescription">
+					Online Banking Application{" "}
+					<span className="projectDate">February, 2020</span>
 				</div>
 				<img
 					src={Almost}
