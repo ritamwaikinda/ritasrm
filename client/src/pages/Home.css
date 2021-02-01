@@ -1,13 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Imbue:wght@400;600&display=swap");
+
 .intro {
 	margin-top: 12rem;
 	margin-bottom: 12rem;
 }
+.intro,
+p {
+	animation-duration: 3s;
+	animation-name: slidein;
+}
+
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+		width: 300%;
+	}
+
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}
 .about {
 	margin-left: 3rem;
-	width: 34rem;
+	width: 38rem;
 	padding-top: 1rem;
 	padding-bottom: 1.5rem;
-	font-size: 30px;
+	font-size: 20px;
+	font-family: "Big Shoulder", serif;
+	line-height: 3rem;
+}
+.aboutMe {
+	margin-top: 3rem;
+}
+#betterday {
+	font-weight: bold;
 }
 .learnMore {
 	margin-left: 5.5rem;
