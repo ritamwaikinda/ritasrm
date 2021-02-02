@@ -1,15 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Imbue:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Imbue:wght@400;600&display=swap');
 
 .intro {
 	margin-top: 12rem;
 	margin-bottom: 12rem;
 }
-.intro,
-p {
+.title {
 	animation-duration: 3s;
 	animation-name: slidein;
+	animation: name duration timing-function delay iteration-count direction
+		fill-mode;
 }
-
+#aboutOne {
+	animation-duration: 6s;
+	animation-name: slidein;
+}
+#aboutTwo {
+	animation-duration: 9s;
+	animation-name: slidein;
+}
+#aboutThree {
+	animation-duration: 12s;
+	animation-name: slidein;
+}
+#betterday {
+	animation-duration: 15s;
+	animation-name: slidein;
+}
 @keyframes slidein {
 	from {
 		margin-left: 100%;
@@ -22,40 +38,47 @@ p {
 	}
 }
 .about {
-	margin-left: 3rem;
+	/* margin-left: 3rem;
 	width: 38rem;
 	padding-top: 1rem;
 	padding-bottom: 1.5rem;
 	font-size: 20px;
-	font-family: "Big Shoulder", serif;
-	line-height: 3rem;
+	font-family: 'Big Shoulder', serif;
+	line-height: 3rem; */
+	margin-left: 6rem;
+	width: 76rem;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	font-size: 40px;
+	font-family: 'Big Shoulder', serif;
+	line-height: 6rem;
 }
 .aboutMe {
-	margin-top: 3rem;
+	margin-top: 6rem;
 }
 #betterday {
 	font-weight: bold;
 }
 .learnMore {
-	margin-left: 5.5rem;
-	border: solid 1px black;
+	margin-left: 11rem;
+	border: solid 2px black;
 	background-color: #111111 !important;
 	color: #ffffff;
-	font-size: 1.8rem;
-	padding-left: 2.8rem;
+	font-size: 3.6rem;
+	padding-left: 5.6rem;
 	border-radius: 100px;
 	font-family: inherit;
-	width: 11rem;
-	line-height: 2.6em;
+	width: 22rem;
+	line-height: 5.2em;
 	position: relative;
 	display: inline-block;
 	overflow: hidden;
-	padding: 0 2.2em;
-	padding-left: 5.3rem;
+	padding: 0 4.4em;
+	padding-left: 10.6rem;
 }
 .learnMore:hover {
 	color: #fff;
-	border: #fff solid 1px;
+	border: #fff solid 2px;
 	background: #22a2ea !important;
 	transform: scale(1.1);
 	transition: ease 0.5s;

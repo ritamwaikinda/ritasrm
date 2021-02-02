@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
+import Photo from './pages/Photo';
 // import Main from "./components/Main";
 // import Projects from "./components/Projects";
 // import Resume from "./components/Resume";
@@ -14,12 +15,16 @@ import './App.css';
 
 function App() {
 	return (
-		<div>
-			<Home />
-			<Services />
-			<Skills />
-			<Projects />
-			{/* <Navbar />
+		<div className="appId">
+			<div className="leftOfApp">
+				<Photo />
+			</div>
+			<div className="rightOfApp">
+				<Home />
+				<Services />
+				<Skills />
+				<Projects />
+				{/* <Navbar />
 			<Home />
 			<Main />
 			<Projects />
@@ -27,7 +32,8 @@ function App() {
 			<Contact />
 			<SocialLinks />
 			<Footer /> */}
-			<Contact />
+				<Contact />
+			</div>
 		</div>
 	);
 }

@@ -1,0 +1,8 @@
+.leftPhotos {
+	/* width: 50%; */
+}
+#photoOne {
+	object-fit: cover;
+	height: 100% window;
+	width: auto;
+}
