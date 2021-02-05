@@ -11,18 +11,22 @@
 		fill-mode;
 }
 #aboutOne {
+	width: 80%;
 	animation-duration: 6s;
 	animation-name: slidein;
 }
 #aboutTwo {
+	width: 80%;
 	animation-duration: 9s;
 	animation-name: slidein;
 }
 #aboutThree {
+	width: 80%;
 	animation-duration: 12s;
 	animation-name: slidein;
 }
 #betterday {
+	width: 80%;
 	animation-duration: 15s;
 	animation-name: slidein;
 }
