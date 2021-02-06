@@ -1,45 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Imbue:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Imbue:wght@400;600&display=swap");
 
 .intro {
 	margin-top: 12rem;
 	margin-bottom: 12rem;
-}
-.title {
-	animation-duration: 3s;
-	animation-name: slidein;
-	animation: name duration timing-function delay iteration-count direction
-		fill-mode;
-}
-#aboutOne {
-	width: 80%;
-	animation-duration: 6s;
-	animation-name: slidein;
-}
-#aboutTwo {
-	width: 80%;
-	animation-duration: 9s;
-	animation-name: slidein;
-}
-#aboutThree {
-	width: 80%;
-	animation-duration: 12s;
-	animation-name: slidein;
-}
-#betterday {
-	width: 80%;
-	animation-duration: 15s;
-	animation-name: slidein;
-}
-@keyframes slidein {
-	from {
-		margin-left: 100%;
-		width: 300%;
-	}
-
-	to {
-		margin-left: 0%;
-		width: 100%;
-	}
 }
 .about {
 	/* margin-left: 3rem;
@@ -54,7 +17,7 @@
 	padding-top: 2rem;
 	padding-bottom: 3rem;
 	font-size: 40px;
-	font-family: 'Big Shoulder', serif;
+	font-family: "Big Shoulder", serif;
 	line-height: 6rem;
 }
 .aboutMe {

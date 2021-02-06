@@ -1,39 +1,11 @@
-import React /*, { Component }*/ from 'react';
-// import Navbar from "./components/Navbar";
-import Home from './pages/Home';
-import Services from './pages/Services';
-import Skills from './pages/Skills';
-import Projects from './pages/Projects';
-import Photo from './pages/Photo';
-// import Main from "./components/Main";
-// import Projects from "./components/Projects";
-// import Resume from "./components/Resume";
-import Contact from './pages/Contact';
-// import SocialLinks from "./components/SocialLinks";
-// import Footer from "./components/Footer";
-import './App.css';
+import React from "react";
+import Profile from "./pages/Profile";
+import "./App.css";
 
 function App() {
 	return (
-		<div className="appId">
-			<div className="leftOfApp">
-				<Photo />
-			</div>
-			<div className="rightOfApp">
-				<Home />
-				<Services />
-				<Skills />
-				<Projects />
-				{/* <Navbar />
-			<Home />
-			<Main />
-			<Projects />
-			<Resume />
-			<Contact />
-			<SocialLinks />
-			<Footer /> */}
-				<Contact />
-			</div>
+		<div>
+			<Profile />
 		</div>
 	);
 }
