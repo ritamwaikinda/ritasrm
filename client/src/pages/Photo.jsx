@@ -8,7 +8,7 @@ function Photo() {
 	return (
 		<div className='leftSide'>
 			<div className='profilePhotos'>
-				<div className='leftPhotos'>
+				<div id='leftPhotos'>
 					<img
 						src={photoOne}
 						alt='headshot of rita mwaikinda'

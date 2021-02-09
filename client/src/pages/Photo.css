@@ -3,28 +3,34 @@
 	width: 50%;
 	position: fixed;
 }
-.profilePhotos .leftPhotos {
+.profilePhotos #leftPhotos {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+
+	margin: 0 auto;
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
 	position: relative;
 }
-.profilePhotos .leftPhotos .portraits {
+.profilePhotos #leftPhotos .portraits {
 	position: absolute;
 	left: 0;
 	top: 0;
 	width: 100%;
 	height: 100%;
 }
-.profilePhotos .leftPhotos .portraits:nth-child(1) {
+.profilePhotos #leftPhotos .portraits:nth-child(1) {
 	-webkit-animation: sliderFade-1 15s linear infinite;
 	animation: sliderFade-1 15s linear infinite;
 }
-.profilePhotos .leftPhotos .portraits:nth-child(2) {
+.profilePhotos #leftPhotos .portraits:nth-child(2) {
 	-webkit-animation: sliderFade-2 15s linear infinite;
 	animation: sliderFade-2 15s linear infinite;
 }
-.profilePhotos .leftPhotos .portraits:nth-child(3) {
+.profilePhotos #leftPhotos .portraits:nth-child(3) {
 	-webkit-animation: sliderFade-3 15s linear infinite;
 	animation: sliderFade-3 15s linear infinite;
 }

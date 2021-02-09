@@ -1,18 +1,15 @@
+.contactPage {
+	margin-top: 18rem;
+}
 ul {
-	/* font-size: 30px;
+	font-size: 22px;
+	padding-left: 7rem;
 	list-style-type: none;
-	line-height: 3rem; */
-
-	font-size: 15px;
-	list-style-type: none;
-	line-height: 1.5rem;
+	line-height: 3rem;
 }
 h1 {
-	/* padding-left: 1em;
-	font-size: 50px; */
-
-	padding-left: 0.5em;
-	font-size: 25px;
+	padding-left: 5.5rem;
+	font-size: 40px;
 }
 a,
 a:link,
@@ -22,9 +19,9 @@ a:active {
 	color: inherit;
 }
 .margin {
-	/* margin: 5px; */
+	margin: 15px;
 
-	margin: 2.5px;
+	/* margin: 2.5px; */
 }
 #linkedin:hover {
 	transform: scale(1.04);

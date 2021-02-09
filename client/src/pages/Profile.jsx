@@ -1,7 +1,7 @@
 import React from "react";
 import Progress from "../components/Progress";
 import Home from "./Home";
-import Services from "./Services";
+// import Services from "./Services";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Photo from "./Photo";
@@ -21,9 +21,7 @@ function Profile() {
 				<div>
 					<Home />
 				</div>
-				<div>
-					<Services />
-				</div>
+				<div>{/* <Services /> */}</div>
 				<div>
 					<Skills />
 				</div>
