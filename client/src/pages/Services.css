@@ -1,31 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Imbue:wght@400;600&display=swap");
+
 .services {
 	margin-top: 12rem;
-	margin-bottom: 12rem;
+	margin-bottom: 36rem;
+}
+.title {
+	margin-left: 5rem;
 }
 .summary {
-	/* border: solid black 1px; */
-	margin-left: 3rem;
-	width: 34rem;
-	/* height: 20rem; */
+	margin-left: 6rem;
+	width: 80%;
 	padding-top: 1rem;
-	padding-bottom: 1.5rem;
-	font-size: 30px;
-	/* margin-right: 8rem; */
+	padding-bottom: 2.05rem;
+	font-size: 40px;
+	font-family: "Big Shoulder", serif;
+	line-height: 5rem;
+}
+.summaryMe {
+	margin-top: 6rem;
+}
+#lookAtResume {
+	font-weight: bold;
 }
 .skillsButton {
-	margin-left: 8rem;
+	margin-left: 11rem;
 	border: solid 1px black;
 	background-color: #111111 !important;
 	color: #ffffff;
-	font-size: 1.8rem;
+	font-size: 3.6rem;
 	border-radius: 100px;
 	font-family: inherit;
+	width: 25rem;
+	text-align: center;
 	line-height: 2.6em;
 	position: relative;
 	display: inline-block;
 	overflow: hidden;
 	padding: 0 2.2em;
-	padding-left: 5.1rem;
+	padding-left: 9rem;
 }
 .skillsButton:hover {
 	color: #fff;

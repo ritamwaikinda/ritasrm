@@ -2,23 +2,19 @@
 
 .intro {
 	margin-top: 12rem;
-	margin-bottom: 12rem;
+	margin-bottom: 36rem;
+}
+.title {
+	margin-left: 5rem;
 }
 .about {
-	/* margin-left: 3rem;
-	width: 38rem;
-	padding-top: 1rem;
-	padding-bottom: 1.5rem;
-	font-size: 20px;
-	font-family: 'Big Shoulder', serif;
-	line-height: 3rem; */
 	margin-left: 6rem;
-	width: 76rem;
-	padding-top: 2rem;
-	padding-bottom: 3rem;
+	width: 80%;
+	padding-top: 1rem;
+	padding-bottom: 2.05rem;
 	font-size: 40px;
 	font-family: "Big Shoulder", serif;
-	line-height: 6rem;
+	line-height: 5rem;
 }
 .aboutMe {
 	margin-top: 6rem;
@@ -28,24 +24,24 @@
 }
 .learnMore {
 	margin-left: 11rem;
-	border: solid 2px black;
+	border: solid 1px black;
 	background-color: #111111 !important;
 	color: #ffffff;
 	font-size: 3.6rem;
-	padding-left: 5.6rem;
 	border-radius: 100px;
 	font-family: inherit;
-	width: 22rem;
-	line-height: 5.2em;
+	width: 25rem;
+	text-align: center;
+	line-height: 2.6em;
 	position: relative;
 	display: inline-block;
 	overflow: hidden;
-	padding: 0 4.4em;
-	padding-left: 10.6rem;
+	padding: 0 2.2em;
+	padding-left: 9rem;
 }
 .learnMore:hover {
 	color: #fff;
-	border: #fff solid 2px;
+	border: #fff solid 1px;
 	background: #22a2ea !important;
 	transform: scale(1.1);
 	transition: ease 0.5s;

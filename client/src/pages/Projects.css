@@ -31,6 +31,7 @@
 }
 .websitepreview {
 	border: 10px solid black;
+	/* background-color: black; */
 	height: 22rem;
 	width: 38rem;
 	border-radius: 3rem;

@@ -14,64 +14,63 @@ import "./Skills.css";
 function Skills() {
 	return (
 		<div>
-			<div className="skills">
-				<div className="qualifications">
-					<div className="skillsList">
-						<h2 className="skillsTitle">What I can do for you.</h2>
-						<ul className="list">
+			<div className='skills'>
+				<div className='qualifications'>
+					<div className='skillsList'>
+						<h2 className='skillsTitle'>What I can do for you.</h2>
+						<ul className='list'>
 							<li>
-								<span className="skillIcon">
+								<span className='skillIcon'>
 									<SiHtml5 />
-								</span>{" "}
+								</span>
 								HTML
 							</li>
 							<li>
-								<span className="skillIcon">
+								<span className='skillIcon'>
 									<SiCsswizardry />
-								</span>{" "}
+								</span>
 								CSS
 							</li>
 							<li>
-								<span className="skillIcon">
+								<span className='skillIcon'>
 									<SiJavascript />
-								</span>{" "}
+								</span>
 								JAVASCRIPT
 							</li>
 							<li>
-								<span className="skillIcon">
+								<span className='skillIcon'>
 									<SiReact />
-								</span>{" "}
+								</span>
 								REACT
 							</li>
 							<li>
 								<img
 									src={ExpressJs}
-									alt="express logo"
-									className="expressLogo"
-								/>{" "}
+									alt='express logo'
+									className='expressLogo'
+								/>
 								EXPRESS
 							</li>
 							<li>
-								<span className="skillIcon">
+								<span className='skillIcon'>
 									<SiNodeDotJs />
-								</span>{" "}
+								</span>
 								NODE.JS
 							</li>
 						</ul>
 					</div>
-					<div className="resume">
-						<div className="alert">
+					<div className='resume'>
+						<div className='alert'>
 							Click here <AiOutlineArrowDown />
 						</div>
 						<embed
 							src={RitaMwaikindaWebDeveloper}
-							alt="pdf of resume"
-							className="resumepdf"
-						></embed>
+							alt='pdf of resume'
+							className='resumepdf'></embed>
 					</div>
 				</div>
-				<div className="projectsButton">
-					Projects <AiOutlineDown viewBox="0 -200 1024 1024" />
+				<div className='projectsButton'>
+					Projects <AiOutlineDown viewBox='0 -200 1024 1024' />
 				</div>
 			</div>
 		</div>

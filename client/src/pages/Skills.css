@@ -1,33 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Imbue:wght@400;600&display=swap");
+
 .skills {
-	/* border: 1px solid red; */
+	border: 1px solid red;
 	margin-top: 12rem;
-	margin-bottom: 12rem;
+	margin-bottom: 36rem;
 	display: flex;
 	flex-direction: column;
-	width: 57rem;
+	width: 100%;
+	align-items: center;
 }
 .qualifications {
-	/* border: 1px solid orange; */
-	height: 80%;
+	height: 100%;
+	width: 90%;
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 3rem;
+	/* margin-bottom: 3rem; */
+	padding-bottom: 2.05rem;
 }
 .skillsTitle {
 	text-align: center;
 }
 .skillsList {
-	/* border: 1px solid yellow; */
+	border: 1px solid yellow;
 	display: flex;
 	flex-direction: column;
-	width: 32%;
+	width: 100%;
 	padding-top: 15rem;
+	padding-left: 2rem;
 	margin-right: 2rem;
 	line-height: 2.6em;
+	font-size: 30px;
 }
 .list {
 	padding-bottom: 1.5rem;
-	font-size: 30px;
+	font-size: 40px;
 	padding-left: 3rem;
 	padding-right: 0px;
 	line-height: 4.8rem;
@@ -35,15 +41,21 @@
 .expressLogo {
 	height: 30px;
 	width: 30px;
+	object-fit: fill;
+	margin-right: 12px;
 }
 .skillIcon {
 	position: relative;
 	top: 5px;
 	bottom: 5px;
+	margin-right: 12px;
 }
 .resume {
-	width: 68%;
+	/* border: 1px solid blue; */
+	/* width: 48%; */
 	padding-top: 1rem;
+	padding-left: 10rem;
+	/* margin-left: 10%; */
 	text-align: center;
 	display: flex;
 	flex-direction: column;
