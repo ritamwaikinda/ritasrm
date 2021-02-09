@@ -17,7 +17,9 @@ function Skills() {
 			<div className='skills'>
 				<div className='qualifications'>
 					<div className='skillsList'>
-						<h2 className='skillsTitle'>What I can do for you.</h2>
+						<h2 className='skillsTitle'>
+							Some skills I can apply to your projects...
+						</h2>
 						<ul className='list'>
 							<li>
 								<span className='skillIcon'>
@@ -57,6 +59,7 @@ function Skills() {
 								</span>
 								NODE.JS
 							</li>
+							<li id='manyMore'>And many more...</li>
 						</ul>
 					</div>
 					<div className='resume'>
