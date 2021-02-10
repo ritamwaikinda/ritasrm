@@ -18,33 +18,48 @@ function Projects() {
 					Fansite with Interactive Trivia Game
 					<span className='projectDate'>November, 2020</span>
 				</div>
-				<img
-					src={BreakingBad}
-					alt='snapshot of the breaking bad fan site and trivia game website'
-					className='websitepreview'
-				/>
+				<a
+					href='https://felina.herokuapp.com/'
+					target='_blank'
+					rel='noreferrer'>
+					<img
+						src={BreakingBad}
+						alt='snapshot of the breaking bad fan site and trivia game website'
+						className='websitepreview'
+					/>
+				</a>
 
 				<div className='projectDescription'>
 					Dating App & Algorithmic Compatibility Matching
 					<span className='projectDate'>December, 2020</span>
 				</div>
-				<img
-					src={AstroDate}
-					alt='snapshot of the astrodate compatibility based dating application'
-					className='websitepreview'
-					id='astro'
-				/>
+				<a
+					href='https://astrodate.herokuapp.com/'
+					target='_blank'
+					rel='noreferrer'>
+					<img
+						src={AstroDate}
+						alt='snapshot of the astrodate compatibility based dating application'
+						className='websitepreview'
+						id='astro'
+					/>
+				</a>
 
 				<div className='projectDescription'>
 					API based Trivia Matching Game
 					<span className='projectDate'>November, 2020</span>
 				</div>
-				<img
-					src={TriviaQuiz}
-					alt='snapshot of the online banking website'
-					className='websitepreview'
-					id='quiz'
-				/>
+				<a
+					href='https://felina.herokuapp.com/game-start'
+					target='_blank'
+					rel='noreferrer'>
+					<img
+						src={TriviaQuiz}
+						alt='snapshot of the online banking website'
+						className='websitepreview'
+						id='quiz'
+					/>
+				</a>
 
 				<div className='projectDescription'>
 					Forum Application<span className='projectDate'>January, 2021</span>
@@ -76,11 +91,11 @@ function Projects() {
 				/>
 			</div>
 
-			<div className='contactMeButton'>
+			<a href='#snapContact' className='contactMeButton'>
 				Leave a Message <AiOutlineDown viewBox='0 -200 1024 1024' />
 				<br></br>
 				<span className='cutesy'>( Or just say hi... )</span>
-			</div>
+			</a>
 		</div>
 	);
 }

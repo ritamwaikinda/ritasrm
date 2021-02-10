@@ -12,6 +12,7 @@
 	font-size: 18.5px;
 	text-align: left;
 	margin-bottom: 1.5rem;
+	margin-top: 5rem;
 	width: 37.5rem;
 }
 .projectDate {
@@ -23,7 +24,6 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 2rem;
 }
 .websitepreview {
 	border: 5px solid black;
@@ -31,7 +31,6 @@
 	height: 17rem;
 	width: 26rem;
 	border-radius: 3rem;
-	margin-bottom: 5rem;
 }
 
 img {
@@ -49,7 +48,12 @@ img {
 	object-position: 50% 0%;
 	background-color: black;
 }
-
+a,
+a:link,
+a:visited,
+a:active {
+	text-decoration: none;
+}
 .contactMeButton {
 	align-self: center;
 	margin-top: 3.5rem;

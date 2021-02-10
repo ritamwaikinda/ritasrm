@@ -18,17 +18,17 @@ function Profile() {
 				<div>
 					<Progress />
 				</div>
-				<div>
+				<div className='snapBox' id='snapHome'>
 					<Home />
 				</div>
 				<div>{/* <Services /> */}</div>
-				<div>
+				<div className='snapBox' id='snapSkills'>
 					<Skills />
 				</div>
-				<div>
+				<div className='snapBox' id='snapProjects'>
 					<Projects />
 				</div>
-				<div>
+				<div className='snapBox' id='snapContact'>
 					<Contact />
 				</div>
 			</div>

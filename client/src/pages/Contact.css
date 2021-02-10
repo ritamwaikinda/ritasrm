@@ -11,10 +11,14 @@ h1 {
 	padding-left: 5.5rem;
 	font-size: 40px;
 }
-a,
-a:link,
-a:visited,
-a:active {
+a#linkedLogo,
+a#linkedLogo:link,
+a#linkedLogo:visited,
+a#linkedLogo:active,
+a#gitLogo,
+a#gitLogo:link,
+a#gitLogo:visited,
+a#gitLogo:active {
 	text-decoration: none;
 	color: inherit;
 }
@@ -36,4 +40,15 @@ a:active {
 }
 #github:hover .githublogo {
 	color: #22a2ea;
+}
+#topLink {
+	margin-left: 7rem;
+}
+#topLink {
+	color: #22a2ea;
+}
+#topLink:hover,
+#topLink:active,
+#topLink:focus {
+	transform: scale(1.2);
 }

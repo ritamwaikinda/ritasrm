@@ -24,7 +24,8 @@ function Contact() {
 					<a
 						href='https://www.linkedin.com/in/ritamwaikinda'
 						target='_blank'
-						rel='noreferrer'>
+						rel='noreferrer'
+						id='linkedLogo'>
 						<FaLinkedin className='linkedinlogo' />
 						<span className='margin'></span>
 						http://www.linkedin.com/in/ritamwaikinda
@@ -34,7 +35,8 @@ function Contact() {
 					<a
 						href='https://github.com/ritamwaikinda'
 						target='_blank'
-						rel='noreferrer'>
+						rel='noreferrer'
+						id='gitLogo'>
 						<FaGithub className='githublogo' />
 						<span className='margin'></span>
 						http://github.com/ritamwaikinda
@@ -44,6 +46,14 @@ function Contact() {
 			<br></br>
 			<br></br>
 			<ContactForm />
+			<br></br>
+
+			<a href='#snapHome' id='topLink'>
+				top :)
+			</a>
+			<br></br>
+			<br></br>
+			<br></br>
 		</div>
 	);
 }

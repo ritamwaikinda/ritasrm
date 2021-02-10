@@ -37,11 +37,10 @@ function Home() {
 						So, tell me. How can I make your day better?
 					</p>
 				</p>
-				<Link to='Skills'>
-					<div className='learnMore'>
-						Learn More <AiOutlineDown viewBox='0 -200 1024 1024' />
-					</div>
-				</Link>
+
+				<a href='#snapSkills' className='learnMore'>
+					Learn More <AiOutlineDown viewBox='0 -200 1024 1024' />
+				</a>
 			</div>
 		</div>
 	);

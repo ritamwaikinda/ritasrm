@@ -61,20 +61,23 @@ function Skills() {
 							</li>
 							<li id='manyMore'>And many more...</li>
 						</ul>
-					</div>
+					</div>{" "}
+					{/* end of skills list */}
 					<div className='resume'>
-						<div className='alert'>
+						{/* <div className='alert'>
 							Click here <AiOutlineArrowDown />
-						</div>
+						</div> */}
 						<embed
 							src={RitaMwaikindaWebDeveloper}
 							alt='pdf of resume'
 							className='resumepdf'></embed>
 					</div>
 				</div>
-				<div className='projectsButton'>
+				{/* end of resume */}
+
+				<a href='#snapProjects' className='projectsButton'>
 					Projects <AiOutlineDown viewBox='0 -200 1024 1024' />
-				</div>
+				</a>
 			</div>
 		</div>
 	);
