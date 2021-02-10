@@ -17,10 +17,10 @@
 	padding-bottom: 1.025rem;
 	margin-bottom: 3rem;
 }
-.skillsTitle {
-	/* padding-left: 3%;
-	padding-right: 3%; */
-}
+/* .skillsTitle {
+	padding-left: 3%;
+	padding-right: 3%;
+} */
 .skillsList {
 	display: flex;
 	flex-direction: column;
