@@ -16,7 +16,6 @@ function Projects() {
 			<div className='projectList'>
 				<div className='projectDescription'>
 					Fansite with Interactive Trivia Game
-					<span className='projectDate'>November, 2020</span>
 				</div>
 				<a
 					href='https://felina.herokuapp.com/'
@@ -31,7 +30,6 @@ function Projects() {
 
 				<div className='projectDescription'>
 					Dating App & Algorithmic Compatibility Matching
-					<span className='projectDate'>December, 2020</span>
 				</div>
 				<a
 					href='https://astrodate.herokuapp.com/'
@@ -45,10 +43,7 @@ function Projects() {
 					/>
 				</a>
 
-				<div className='projectDescription'>
-					API based Trivia Matching Game
-					<span className='projectDate'>November, 2020</span>
-				</div>
+				<div className='projectDescription'>API based Trivia Matching Game</div>
 				<a
 					href='https://felina.herokuapp.com/game-start'
 					target='_blank'
@@ -61,9 +56,7 @@ function Projects() {
 					/>
 				</a>
 
-				<div className='projectDescription'>
-					Forum Application<span className='projectDate'>January, 2021</span>
-				</div>
+				<div className='projectDescription'>Forum Application</div>
 				<img
 					src={Coming}
 					alt='snapshot of the commercial realestate website'
@@ -72,7 +65,6 @@ function Projects() {
 
 				<div className='projectDescription'>
 					Multi-Author & User Blog-Site for Web Developers
-					<span className='projectDate'>February, 2020</span>
 				</div>
 				<img
 					src={Soon}
@@ -80,10 +72,7 @@ function Projects() {
 					className='websitepreview'
 				/>
 
-				<div className='projectDescription'>
-					Online Banking Application{" "}
-					<span className='projectDate'>February, 2020</span>
-				</div>
+				<div className='projectDescription'>Online Banking Application </div>
 				<img
 					src={Almost}
 					alt='snapshot of the online shopping website'

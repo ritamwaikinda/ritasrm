@@ -1,11 +1,24 @@
+html {
+	scroll-behavior: smooth;
+	scroll-snap-type: y proximity;
+}
 .contactPage {
-	margin-top: 18rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+
+	padding-top: 8rem;
+	padding-bottom: 7rem;
+	scroll-snap-align: start;
+	background-color: #d9b995;
 }
 ul {
 	font-size: 22px;
 	padding-left: 7rem;
 	list-style-type: none;
 	line-height: 3rem;
+	margin-top: 0.4rem;
 }
 h1 {
 	padding-left: 5.5rem;
@@ -32,20 +45,20 @@ a#gitLogo:active {
 	transition: 0.4s ease;
 }
 #linkedin:hover .linkedinlogo {
-	color: #22a2ea;
+	color: #d3931a;
 }
 #github:hover {
 	transform: scale(1.05);
 	transition: 0.4s ease;
 }
 #github:hover .githublogo {
-	color: #22a2ea;
+	color: #d3931a;
 }
 #topLink {
 	margin-left: 7rem;
 }
 #topLink {
-	color: #22a2ea;
+	color: #d3931a;
 }
 #topLink:hover,
 #topLink:active,

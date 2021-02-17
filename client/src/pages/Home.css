@@ -1,10 +1,19 @@
 html {
 	scroll-behavior: smooth;
+	scroll-snap-type: y proximity;
 }
-.intro {
-	margin-top: 96px;
-	margin-bottom: 288px;
-	margin-left: 2.5rem;
+.homeBox {
+	margin-top: 2.2rem;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+
+	padding-top: 9rem;
+	padding-bottom: 288px;
+	padding-left: 2.5rem;
+	scroll-snap-align: start;
+	scroll-margin-top: 6rem;
+	background-color: #ffeadc;
 }
 .title {
 	margin-left: 15px;
@@ -52,7 +61,7 @@ a:active {
 .learnMore:hover {
 	color: #fff;
 	border: #fff solid 1px;
-	background: #22a2ea !important;
+	background: #d3931a !important;
 	transform: scale(1.1);
 	transition: ease 0.5s;
 }

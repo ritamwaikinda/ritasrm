@@ -14,21 +14,27 @@ function Profile() {
 			<div className='leftOfApp'>
 				<Photo />
 			</div>
+
 			<div className='rightOfApp'>
 				<div>
 					<Progress />
 				</div>
-				<div className='snapBox' id='snapHome'>
+
+				<div id='snapHome'>
 					<Home />
 				</div>
+
 				<div>{/* <Services /> */}</div>
-				<div className='snapBox' id='snapSkills'>
+
+				<div id='snapSkills'>
 					<Skills />
 				</div>
-				<div className='snapBox' id='snapProjects'>
+
+				<div id='snapProjects'>
 					<Projects />
 				</div>
-				<div className='snapBox' id='snapContact'>
+
+				<div id='snapContact'>
 					<Contact />
 				</div>
 			</div>

@@ -55,7 +55,7 @@ form {
 #submit:hover {
 	color: #fff;
 	border: #fff solid 1px;
-	background: #22a2ea !important;
+	background: #d3931a !important;
 	transform: scale(1.1);
 	transition: ease 0.5s;
 }

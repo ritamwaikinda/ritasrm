@@ -1,29 +1,39 @@
 html {
 	scroll-behavior: smooth;
+	scroll-snap-type: y proximity;
 }
 .skills {
-	margin-top: 12rem;
-	margin-bottom: 18rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+
+	padding-top: 3rem;
+	padding-bottom: 9rem;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 	width: 100%;
 	align-items: center;
+	scroll-snap-align: start;
+	background-color: #d9b995;
 }
 .qualifications {
 	height: 100%;
 	width: 100%;
-	display: flex;
-	flex-direction: row;
+	/* display: flex; */
+	/* flex-direction: row; */
+	flex-wrap: wrap;
 	padding-bottom: 1.025rem;
 	margin-bottom: 3rem;
 }
 .skillsList {
 	display: flex;
 	flex-direction: column;
-	width: 40%;
+	/* width: 40%; */
 	padding-top: 8.5rem;
-	padding-left: 4%;
-	padding-right: 2%;
+	padding-left: 15%;
+	/* padding-right: 2.5rem; */
 	line-height: 2.4em;
 	font-size: 15px;
 }
@@ -62,7 +72,7 @@ li {
 	width: 50%;
 }
 /* .alert {
-	border: 1px solid #22a2ea;
+	border: 1px solid #d3931a;
 	background-color: #22a1ea1f;
 	font-size: 20px;
 	width: 8.5rem;
@@ -78,7 +88,7 @@ li {
 	margin-top: 3.5rem;
 	padding-bottom: 0.75rem;
 	width: 25.194rem;
-	height: 35.5225rem;
+	height: 35.2rem;
 }
 a,
 a:link,
@@ -87,7 +97,7 @@ a:active {
 	text-decoration: none;
 }
 .projectsButton {
-	margin-top: 2.5rem;
+	/* margin-top: 2.5rem; */
 	border: solid 1px black;
 	background-color: #111111 !important;
 	color: #ffffff;
@@ -108,7 +118,7 @@ a:active {
 .projectsButton:hover {
 	color: #fff;
 	border: #fff solid 1px;
-	background: #22a2ea !important;
+	background: #d3931a !important;
 	transform: scale(1.1);
 	transition: ease 0.5s;
 }

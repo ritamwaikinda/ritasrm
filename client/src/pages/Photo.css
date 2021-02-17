@@ -22,15 +22,15 @@
 }
 .profilePhotos #leftPhotos .portraits:nth-child(1) {
 	/* -webkit-animation: sliderFade-1 15s linear infinite; */
-	animation: sliderFade-1 15s linear infinite;
+	animation: sliderFade-1 30s linear infinite;
 }
 .profilePhotos #leftPhotos .portraits:nth-child(2) {
 	/* -webkit-animation: sliderFade-2 15s linear infinite; */
-	animation: sliderFade-2 15s linear infinite;
+	animation: sliderFade-2 30s linear infinite;
 }
 .profilePhotos #leftPhotos .portraits:nth-child(3) {
 	/* -webkit-animation: sliderFade-3 15s linear infinite; */
-	animation: sliderFade-3 15s linear infinite;
+	animation: sliderFade-3 30s linear infinite;
 }
 @keyframes sliderFade-1 {
 	0% {
@@ -40,6 +40,9 @@
 		opacity: 1;
 	}
 	18% {
+		opacity: 1;
+	}
+	23% {
 		opacity: 0.5;
 	}
 	27% {
@@ -63,8 +66,11 @@
 	81% {
 		opacity: 0;
 	}
-	90% {
+	85% {
 		opacity: 0.5;
+	}
+	90% {
+		opacity: 1;
 	}
 	100% {
 		opacity: 1;
@@ -78,6 +84,9 @@
 		opacity: 0;
 	}
 	18% {
+		opacity: 0;
+	}
+	23% {
 		opacity: 0.5;
 	}
 	27% {
@@ -89,7 +98,10 @@
 	45% {
 		opacity: 1;
 	}
-	54% {
+	56% {
+		opacity: 1;
+	}
+	60% {
 		opacity: 0.5;
 	}
 	63% {
@@ -127,7 +139,10 @@
 	45% {
 		opacity: 0;
 	}
-	54% {
+	56% {
+		opacity: 0;
+	}
+	60% {
 		opacity: 0.5;
 	}
 	63% {
@@ -139,8 +154,11 @@
 	81% {
 		opacity: 1;
 	}
-	90% {
+	85% {
 		opacity: 0.5;
+	}
+	90% {
+		opacity: 0;
 	}
 	100% {
 		opacity: 0;

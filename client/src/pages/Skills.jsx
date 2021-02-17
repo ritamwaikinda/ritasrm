@@ -63,15 +63,15 @@ function Skills() {
 						</ul>
 					</div>{" "}
 					{/* end of skills list */}
-					<div className='resume'>
-						{/* <div className='alert'>
+					{/* <div className='resume'> */}
+					{/* <div className='alert'>
 							Click here <AiOutlineArrowDown />
 						</div> */}
-						<embed
+					{/* <embed
 							src={RitaMwaikindaWebDeveloper}
 							alt='pdf of resume'
 							className='resumepdf'></embed>
-					</div>
+					</div> */}
 				</div>
 				{/* end of resume */}
 
