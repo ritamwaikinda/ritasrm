@@ -1,6 +1,12 @@
 import React from "react";
 import { AiOutlineDown } from "react-icons/ai";
+// import RitaMwaikindaWebDeveloper from "../Images/Docs/RitaMwaikindaWebDeveloper.pdf";
 import "./Services.css";
+
+/*
+this came from the top of home.jsx page
+// import { Link, animateScroll as scroll } from "react-scroll";
+*/
 
 function Services() {
 	return (
@@ -16,10 +22,16 @@ function Services() {
 						non ligula quis mauris rutrum porta.
 					</p>
 					<p className='summaryMe' id='summaryTwo'>
-						Duis consectetur massa sit amet nibh rhoncus, at pharetra ligula
-						aliquet. Ut ac velit vestibulum, eleifend diam ut, malesuada nisi.
-						Sed vel felis vitae diam luctus commodo. Nunc ipsum est, vulputate
-						id orci ac, luctus consectetur sapien.
+						{/* end of skills list */}
+						{/* <div className='resume'> */}
+						{/* <div className='alert'>
+							Click here <AiOutlineArrowDown />
+						</div> */}
+						{/* <embed
+							src={RitaMwaikindaWebDeveloper}
+							alt='pdf of resume'
+							className='resumepdf'></embed>
+					</div> */}
 					</p>
 					<p className='summaryMe' id='lookAtResume'>
 						Let's take a look at my resume?..

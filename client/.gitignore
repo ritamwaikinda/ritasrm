@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# pages
+client\src\pages\Services.jsx
+client\src\pages\Services.css

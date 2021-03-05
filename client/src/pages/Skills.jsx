@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineArrowDown, AiOutlineDown } from "react-icons/ai";
+import { AiOutlineDown } from "react-icons/ai";
 import {
 	SiHtml5,
 	SiCsswizardry,
@@ -8,7 +8,6 @@ import {
 	SiNodeDotJs,
 } from "react-icons/si";
 import ExpressJs from "../Images/ExpressJs.svg";
-import RitaMwaikindaWebDeveloper from "../Images/Docs/RitaMwaikindaWebDeveloper.pdf";
 import "./Skills.css";
 
 function Skills() {
@@ -62,16 +61,6 @@ function Skills() {
 							<li id='manyMore'>And many more...</li>
 						</ul>
 					</div>{" "}
-					{/* end of skills list */}
-					{/* <div className='resume'> */}
-					{/* <div className='alert'>
-							Click here <AiOutlineArrowDown />
-						</div> */}
-					{/* <embed
-							src={RitaMwaikindaWebDeveloper}
-							alt='pdf of resume'
-							className='resumepdf'></embed>
-					</div> */}
 				</div>
 				{/* end of resume */}
 
