@@ -10,7 +10,7 @@ function Photo() {
 		<div className='leftSide'>
 			<div className='profilePhotos'>
 				<div className='overlayContact'>
-					<Contact />
+					<Contact className='overlayForContact' />
 				</div>
 				<div id='leftPhotos'>
 					<img
