@@ -1,7 +1,7 @@
-html {
+/* html {
 	scroll-behavior: smooth;
 	scroll-snap-type: y proximity;
-}
+} */
 .homeBox {
 	margin-top: 2.2rem;
 	margin-bottom: 1rem;

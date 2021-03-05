@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./Contact";
 import photoOne from "../Images/LeftImages/photoOne.jpg";
 import photoTwo from "../Images/LeftImages/photoTwo.jpg";
 import photoThree from "../Images/LeftImages/photoThree.jpg";
@@ -8,6 +9,9 @@ function Photo() {
 	return (
 		<div className='leftSide'>
 			<div className='profilePhotos'>
+				<div className='overlayContact'>
+					<Contact />
+				</div>
 				<div id='leftPhotos'>
 					<img
 						src={photoOne}

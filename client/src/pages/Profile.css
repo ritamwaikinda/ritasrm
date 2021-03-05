@@ -1,6 +1,6 @@
-html {
+/* html {
 	overflow-x: scroll;
-}
+} */
 .appId {
 	display: flex;
 	flex-direction: row;

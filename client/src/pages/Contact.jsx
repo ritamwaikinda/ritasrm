@@ -16,9 +16,15 @@ function Contact() {
 					(305) 934-2054
 				</li>
 				<li className='contact' id='email'>
-					<MdEmail />
-					<span className='margin'></span>
-					srmwaikinda@gmail.com
+					<a
+						href='mailto:srmwaikinda@gmail.com'
+						target='_blank'
+						rel='noreferrer'
+						id='linkedLogo'>
+						<MdEmail />
+						<span className='margin'></span>
+						srmwaikinda@gmail.com
+					</a>
 				</li>
 				<li className='contact' id='linkedin'>
 					<a
